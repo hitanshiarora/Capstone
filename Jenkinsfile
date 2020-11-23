@@ -1,6 +1,6 @@
 pipeline { 
     environment { 
-        registry = "hitanshiarora/FlaskApp-master" 
+        registry = "hitanshiarora/project" 
         registryCredential = 'dockerhub_id' 
         dockerImage = '' 
     }
